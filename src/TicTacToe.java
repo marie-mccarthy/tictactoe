@@ -24,30 +24,7 @@ public class TicTacToe
 			myResult();
 		
 		}
-//	public static void fillBox1(int entry) 
-//		{		
-//			for(int i = 0; i<9;i++)		
-//				{
-//			System.out.println("how many spaces would you like to go over?(0-2)");
-//			Scanner userInput= new Scanner(System.in);
-//			int anwser1 = userInput.nextInt();	
-//			System.out.println("how many spaces would you like to go down?(0-2)");
-//			Scanner userInput2= new Scanner(System.in);
-//			int anwser2 = userInput2.nextInt();				
-//			switch (entry) 
-//	    		{
-//	    			case open:  
-//	    				System.out.print(" "); 
-//	    	   		break;
-//	    			case oval: 
-//	    				System.out.print("O"); 
-//	    			break;
-//	    			case fill:  
-//	    				System.out.print("X"); 
-//	    			break;
-//	    		}
-//			}
-//		}
+
 	public static void Displaydisplayboard() 
 		{
 		 for (int row1 = 0; row1 < row; row1++) 
@@ -57,7 +34,7 @@ public class TicTacToe
 	            fillBox(Displaydisplayboard[row1][col1]); 
 	            if (col1!= col - 2) 
 	            	{
-	               System.out.print(Displaydisplayboard[row1][col1]);   
+	               System.out.print("||");   
 	            	}
 	        	 }
 	         System.out.println();
